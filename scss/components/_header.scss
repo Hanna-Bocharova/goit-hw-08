@@ -1,0 +1,161 @@
+.header {
+    display: block;
+    align-items: center;
+    position: relative;
+    @media screen and (min-width:768px) {
+            display: flex;
+        }
+
+}
+.page-header {
+    @media screen and (min-width:768px){
+        height: 80px;
+    }
+}
+
+.header__adress {
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        display: block;
+        list-style: none;
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+        @media screen and (min-width:1200px){
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: 0;
+            margin-left: 305px;
+        }
+}
+.header__list {
+    @media screen and (min-width:768px) {
+        list-style: none;
+        padding-top: 32px;
+    }
+        @media screen and (min-width:1200px) {
+            margin-left: 93px;
+        }
+
+}
+
+.mobil-menu {
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+    @media screen and (min-width:768px) {
+        display: flex;
+        height: 100%;
+    }
+    @media screen and (min-width:1200px) {
+        justify-content: space-between;
+    }    
+}
+        
+
+
+
+.header__link {
+    font-weight: 500;
+    line-height: 1.14;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
+    fill: var(--color-primary);
+    cursor: pointer;
+    color: var(--color-primary);
+
+}
+
+
+.header__link--black {
+    color: var(--color-secondary);
+    @media screen and (min-width:768px) {
+        padding-bottom: 32px;
+    }
+}
+.header__link:hover,
+.header__link:focus,
+.header__current,
+.accent {
+    color: var(--color-accent);
+    fill: var(--color-accent);
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.header__current {
+    position: relative;
+}
+
+.header__link.header__current::after {
+    position: absolute;
+    content: ' ';
+    display: block;
+    background-color: var(--color-accent);
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.header__mail::after {
+    content: 'info@devstudio.com';
+    display: inline-block;
+}
+
+.header__mail {
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        padding-bottom: 10px;
+    }
+
+}
+
+.header__phone::after {
+    content: '+38 096 111 11 11';
+    display: inline-block;
+}
+
+
+
+
+
+.header__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+.nav {
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        margin-right: 88px;
+    }
+}
+
+
+.header__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header--border {
+    @media screen and (min-width:768px) {
+    border-bottom: 1px solid var(--color-top);
+    }
+}
+
+                
+        
+            
+           
+    
+           
+    
+    

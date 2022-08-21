@@ -1,0 +1,36 @@
+.cta {
+    @media screen and (min-width: 1200px) {
+        margin-top: 0;
+        margin-left: 70px;
+        }
+}
+
+.cta__title {
+    color: var(--color-tertiary);
+    text-transform: uppercase;
+    line-height: 1.14;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.list-cta,
+.form-follow-input {
+    margin-top: 20px;
+    justify-content: center;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+        }
+    
+}
+
+.social-item-cta:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icon-cta {
+    cursor: pointer;
+    padding: 12px;
+    fill: var(--color-tertiary);
+    width: 20px;
+    height: 20px;
+}
