@@ -29,7 +29,7 @@
     display: block;
     text-align: center;
 
-     @media screen and (min-width: 768px) {
+     @media screen and (min-width: 768px) and (max-width: 1200px){
         display: flex;
         align-items: baseline;
         flex-wrap: wrap;
@@ -37,11 +37,15 @@
     }
     @media screen and (min-width: 1200px) {
         text-align: start;
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
     }
     
 }
 
 .adress {
+    margin-bottom: 60px;
     @media screen and (min-width: 1200px) {
     margin: 0;
     }
@@ -52,7 +56,7 @@
 .footer-contakts-list {
     display: block;
     margin-top: 20px;
-    margin-bottom: 60px;
+    
     @media screen and (min-width: 1200px) {
         left: 0;
         margin-bottom: 0;

@@ -83,6 +83,9 @@
 
 .btn-list {
     margin-right: 8px;
+    
+}
+.btn-list:nth-child(-n+3) {
     @media screen and (max-width: 767px) {
     margin-bottom: 10px;
     }
