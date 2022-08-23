@@ -1,21 +1,24 @@
 .menu-flex {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
 
 }
 
 .mob-header__list {
     display: block;
-    margin-top: 48px;
+    
 }
 
 .mob-header__adress {
-    display: block;
-    margin-top: 302px;
+    flex-direction: column;
+    
 }
 
 .menu-toggle {
+    position: absolute;
+    right: 0;
     height: 40px;
     background-color: #FFFFFF;
     border: none;
@@ -33,6 +36,7 @@
     padding: 11px;
     margin-top: 10px;
     margin-right: 25px;
+    position: relative;
 
 }
 
@@ -121,4 +125,8 @@
 
 .social-list-menu__link--outborder {
     border: none;
+}
+
+.mob-main-menu {
+    margin-top: 40px;
 }
