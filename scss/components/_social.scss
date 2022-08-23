@@ -1,10 +1,7 @@
 .social-list {
     justify-content: center;
     
-    // @media screen and (min-width: 768px) {
-    //     margin-bottom: 30px;
-    // }
-            
+    
 }
 
 .social-list__item:not(:last-child) {
@@ -35,8 +32,8 @@
     fill: var(--color-client);
     cursor: pointer;
     padding: 12px;
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
 }
 
 .social-list__icon:hover {
